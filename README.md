@@ -3,7 +3,7 @@
 Bu proje hakkında Türkçe ve İngilizce dillerinde bilgi alabilirsiniz.
 
 - [Türkçe Dokümantasyon (Varsayılan)](README.md)
-- [English Documentation](README_en.md)
+- [English Documentation](README_EN.md)
 
 Bu Python betiği, bir metin dosyasındaki e-posta kimlik bilgilerinin geçerliliğini kontrol eder ve çalışan ve çalışmayan hesapları belirler. Betik, yalnızca `@hotmail.com` ve `@outlook.com` alan adlarına sahip e-posta adreslerini kontrol eder. Kimlik bilgilerini kontrol ettikten sonra, betik çalışmayan hesapları dosyadan silme seçeneği sunar.
 
@@ -11,8 +11,7 @@ Bu Python betiği, bir metin dosyasındaki e-posta kimlik bilgilerinin geçerlil
 - SMTP kullanarak e-posta kimlik bilgilerini (kullanıcı adı ve şifre) doğrular.
 - Sadece `@hotmail.com` ve `@outlook.com` alan adlarına sahip e-posta adreslerini kontrol eder.
 - Birden fazla e-posta hesabını asenkron olarak kontrol eder.
-- Dil seçimi (Türkçe veya İngilizce) kaydedilir ve tekrar sorulmaz.
-- Çalışmayan hesapları dosyadan kaldırma seçeneği.
+- Çalışmayan hesapları .txt dosyasından kaldırma.
 
 ## Gereksinimler
 - Makinenizde Python 3.x yüklü olmalıdır.
@@ -33,7 +32,7 @@ Bu Python betiği, bir metin dosyasındaki e-posta kimlik bilgilerinin geçerlil
     ```
 2. Betiği çalıştırın:
     ```bash
-    python script.py
+    python Checker.py
     ```
 3. İlk çalıştırmada dil seçmeniz istenecektir:
     ```
@@ -49,7 +48,7 @@ Bu Python betiği, bir metin dosyasındaki e-posta kimlik bilgilerinin geçerlil
     ```
 
 ## Dosyalar
-- `script.py`: E-posta kimlik bilgisi denetimi yapan ana betik.
+- `Checker.py`: E-posta kimlik bilgisi denetimi yapan ana betik.
 - `lang.pkl`: Dil tercihini ve dile özgü mesajları saklar.
 - `mails.txt`: E-posta kimlik bilgilerini içeren giriş dosyası.
 - `requirements.txt`: Yüklenmesi gereken bağımlılıkların listesi.

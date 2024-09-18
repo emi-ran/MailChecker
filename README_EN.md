@@ -3,7 +3,7 @@
 You can get information about this project in Turkish and English.
 
 - [Türkçe Dokümantasyon (Varsayılan)](README.md)
-- [English Documentation](README_en.md)
+- [English Documentation](README_EN.md)
 
 This Python script checks the validity of email credentials from a text file and identifies working and non-working accounts. The script specifically checks credentials for emails with domains `@hotmail.com` and `@outlook.com`. After checking the credentials, the script offers an option to delete non-working accounts from the file.
 
@@ -33,7 +33,7 @@ This Python script checks the validity of email credentials from a text file and
     ```
 2. Run the script:
     ```bash
-    python script.py
+    python Checker.py
     ```
 3. On the first run, you will be prompted to select a language:
     ```
@@ -49,7 +49,7 @@ This Python script checks the validity of email credentials from a text file and
     ```
 
 ## Files
-- `script.py`: The main script that performs the email credential check.
+- `Checker.py`: The main script that performs the email credential check.
 - `lang.pkl`: Stores the language preference and language-specific messages.
 - `mails.txt`: Input file with email credentials.
 - `requirements.txt`: List of dependencies to install.
