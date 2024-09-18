@@ -1,5 +1,10 @@
 # Email Credential Checker
 
+You can get information about this project in Turkish and English.
+
+- [Türkçe Dokümantasyon (Varsayılan)](README.md)
+- [English Documentation](README_en.md)
+
 This Python script checks the validity of email credentials from a text file and identifies working and non-working accounts. The script specifically checks credentials for emails with domains `@hotmail.com` and `@outlook.com`. After checking the credentials, the script offers an option to delete non-working accounts from the file.
 
 ## Features

@@ -1,5 +1,10 @@
 # E-posta Kimlik Bilgisi Denetleyici
 
+Bu proje hakkında Türkçe ve İngilizce dillerinde bilgi alabilirsiniz.
+
+- [Türkçe Dokümantasyon (Varsayılan)](README.md)
+- [English Documentation](README_en.md)
+
 Bu Python betiği, bir metin dosyasındaki e-posta kimlik bilgilerinin geçerliliğini kontrol eder ve çalışan ve çalışmayan hesapları belirler. Betik, yalnızca `@hotmail.com` ve `@outlook.com` alan adlarına sahip e-posta adreslerini kontrol eder. Kimlik bilgilerini kontrol ettikten sonra, betik çalışmayan hesapları dosyadan silme seçeneği sunar.
 
 ## Özellikler
