@@ -19,8 +19,10 @@ def load_and_update_language_choice():
 
         if selected_lang == '1':
             lang_data['choice'] = 'tr'
+            print('Dil başarıyla seçildi!')
         elif selected_lang == '2':
             lang_data['choice'] = 'en'
+            print('Language successfully selected!')
         else:
             print("Invalid choice, defaulting to English.")
             lang_data['choice'] = 'en'
@@ -47,6 +49,8 @@ def check_email_credentials(email, password):
 
 async def main():
     lang = load_and_update_language_choice()
+
+    print('\n'+lang['checking']+'\n')
 
     try:
         with open('mails.txt', 'r') as file:
