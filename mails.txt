@@ -1,4 +1,10 @@
-Mail:Pass
-Mail:Pass
-Mail:Pass
-Mail:Pass
+brandon@hotmail.com:Brandonpass1
+john@hotmail.com:Johnpass1
+mary@hotmail.com:Marypass1
+david@hotmail.com:Davidpass1
+sarah@hotmail.com:Sarahpass1
+michael@hotmail.com:Michaelpass1
+jennifer@hotmail.com:Jenniferpass1
+robert@hotmail.com:Robertpass1
+linda@hotmail.com:Lindapass1
+william@hotmail.com:Williampass1
